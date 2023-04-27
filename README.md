@@ -1,3 +1,8 @@
+# Package Summary
+
+ ## Twitch_Chat_IRC (Credit-Xenova & Twitch)
+ The Twtich_chat_IRC function will extract Twitch chat box logs, logging the messages, user ID, emotes, badges, and subscription status using a combination of Twitch chat IRC, spaCy, socket, re, JSON, argparse, emoji, and CSV libraries. Using a login, which can be a bot or regular user and will need an oath ID authentication.
+ 
 ## Chatlog_Extractor (Credit-Blouin (me))
 The chatlog_extractor function takes the chat log input and returns the named entities, nouns, and verbs, sorted. The function passes the results of the chat logs, gathering the text data messages from the Twitch_chat_IRC, using spaCy to sort and categorize the text. Then the results are a sorted list of the entities, nouns, and verbs and printed. This function can be extended into a data list to be used for profanity filters, looking for keywords or bypasses such as, special characters (&%!@*).
 * * * 
